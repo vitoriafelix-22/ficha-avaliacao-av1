@@ -12,7 +12,7 @@ function criptografarPalavra(palavra) {
 
      for (let index = 0; index < palavra.length; index++) {
         const letra = palavra[index];
-        const letraCriptografada = alfabeto[alfabeto.indexOf(letra) + 5];
+        const letraCriptografada = alfabeto[alfabeto.indexOf(letra) + 4];
         palavraCriptografada += letraCriptografada;
     }
     return palavraCriptografada;
