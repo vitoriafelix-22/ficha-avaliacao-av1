@@ -2,7 +2,7 @@ var entrada = require('readline-sync')
 
 let palavraUsuario = entrada.question('Informe uma palavra sem numeros e caracteres especiais: ');
 
-console.log('Sua palavra criptografada é: ' + criptografarPalavra(palavraUsuario));
+console.log('A palavra criptografada é: ' + criptografarPalavra(palavraUsuario));
 
 function criptografarPalavra(palavra) {
     const alfabeto = ['a', 'b', 'c', 'd', 'e', 'f','g', 'h', 'i', 
